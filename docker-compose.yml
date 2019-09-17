@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ddclient:
+    build: .
+    volumes:
+    - config-vol:/config
+volumes:
+  config-vol: {}
